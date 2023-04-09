@@ -49,10 +49,12 @@ h1 {
   box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
   width: 320px;
   height: 497px;
-  position: absolute;
+  align-self: center;
+  justify-self: center;
+  /* position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 50%;
+  top: 50%; */
   flex-direction: column;
 }
 
