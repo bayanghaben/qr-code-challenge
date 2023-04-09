@@ -21,13 +21,14 @@ html {
 body {
   background-color: var(--bg-color);
   font-family: var(--font);
-  width: 1440px;
-  height: 800px;
+  height: 100vh;
+  width: 100vw;
 }
 .container {
   margin-right: auto;
   margin-left: auto;
-  position: relative;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
 }
@@ -49,12 +50,7 @@ h1 {
   box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
   width: 320px;
   height: 497px;
-  align-self: center;
-  justify-self: center;
-  /* position: absolute;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%; */
+
   flex-direction: column;
 }
 
